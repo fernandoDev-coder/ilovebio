@@ -1,0 +1,9 @@
+<svg width="1200" height="800" viewBox="0 0 1200 800" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="800" fill="#FAF8F2"/>
+  <rect x="140" y="220" width="260" height="360" rx="34" fill="#E8F5ED" stroke="#0B1220" stroke-opacity="0.08" stroke-width="6"/>
+  <rect x="470" y="180" width="260" height="400" rx="34" fill="#E8F5ED" stroke="#0B1220" stroke-opacity="0.08" stroke-width="6"/>
+  <rect x="800" y="250" width="260" height="330" rx="34" fill="#E8F5ED" stroke="#0B1220" stroke-opacity="0.08" stroke-width="6"/>
+  <text x="70" y="120" fill="#0B1220" fill-opacity="0.55" font-size="42" font-family="ui-sans-serif, system-ui">Alimentación bio</text>
+  <text x="70" y="175" fill="#0B1220" fill-opacity="0.45" font-size="24" font-family="ui-sans-serif, system-ui">Placeholder (reemplazar)</text>
+</svg>
+

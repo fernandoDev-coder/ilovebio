@@ -1,0 +1,12 @@
+<svg width="1600" height="1200" viewBox="0 0 1600 1200" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1600" height="1200" fill="#E8F5ED"/>
+  <rect x="240" y="220" width="1120" height="760" rx="60" fill="white" stroke="#0B1220" stroke-opacity="0.08" stroke-width="6"/>
+  <rect x="320" y="320" width="520" height="90" rx="20" fill="#F4F0E4"/>
+  <rect x="320" y="440" width="960" height="34" rx="14" fill="#F4F0E4"/>
+  <rect x="320" y="500" width="820" height="34" rx="14" fill="#F4F0E4"/>
+  <rect x="320" y="560" width="740" height="34" rx="14" fill="#F4F0E4"/>
+  <circle cx="1120" cy="740" r="180" fill="#34A853" fill-opacity="0.18"/>
+  <text x="310" y="360" fill="#0B1220" fill-opacity="0.55" font-size="44" font-family="ui-sans-serif, system-ui">Foto tienda</text>
+  <text x="310" y="418" fill="#0B1220" fill-opacity="0.45" font-size="26" font-family="ui-sans-serif, system-ui">Placeholder (reemplazar)</text>
+</svg>
+

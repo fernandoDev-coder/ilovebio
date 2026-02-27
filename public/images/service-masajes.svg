@@ -1,0 +1,9 @@
+<svg width="1600" height="1200" viewBox="0 0 1600 1200" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1600" height="1200" fill="#FAF8F2"/>
+  <rect x="240" y="220" width="1120" height="760" rx="60" fill="white" stroke="#0B1220" stroke-opacity="0.08" stroke-width="6"/>
+  <path d="M520 720c120-140 260-220 420-240 140-18 230 20 280 80" stroke="#2A8F47" stroke-width="22" stroke-linecap="round"/>
+  <path d="M500 650c90-110 210-170 340-190" stroke="#34A853" stroke-opacity="0.55" stroke-width="18" stroke-linecap="round"/>
+  <text x="310" y="340" fill="#0B1220" fill-opacity="0.55" font-size="44" font-family="ui-sans-serif, system-ui">Masajes</text>
+  <text x="310" y="398" fill="#0B1220" fill-opacity="0.45" font-size="26" font-family="ui-sans-serif, system-ui">Placeholder (reemplazar)</text>
+</svg>
+
