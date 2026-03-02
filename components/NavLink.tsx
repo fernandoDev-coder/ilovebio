@@ -19,7 +19,7 @@ export function NavLink({
     <Link
       href={href}
       className={cn(
-        "rounded-lg px-3 py-2 text-sm font-medium text-ink-800 transition hover:bg-ink-900/5 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-leaf-600",
+        "rounded-lg px-3 py-2 text-sm font-medium text-ink-800 transition-colors duration-200 ease-out hover:bg-ink-900/5 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-leaf-600 motion-reduce:transition-none",
         isActive && "bg-leaf-100 text-leaf-700",
         className
       )}
@@ -30,4 +30,3 @@ export function NavLink({
     </Link>
   );
 }
-

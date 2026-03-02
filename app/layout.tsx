@@ -5,6 +5,7 @@ import "@/app/globals.css";
 import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
 import { WhatsAppFloat } from "@/components/WhatsAppFloat";
+import { PageTransition } from "@/components/PageTransition";
 import { siteConfig } from "@/lib/siteConfig";
 import { getLocalBusinessJsonLd } from "@/lib/schema";
 
@@ -56,7 +57,7 @@ export default function RootLayout({
 
         <Header />
         <main id="contenido" className="pt-16">
-          {children}
+          <PageTransition>{children}</PageTransition>
         </main>
         <Footer />
         <WhatsAppFloat />
@@ -64,4 +65,3 @@ export default function RootLayout({
     </html>
   );
 }
-

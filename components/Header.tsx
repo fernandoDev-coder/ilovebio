@@ -1,7 +1,9 @@
 import { Container } from "@/components/Container";
-import { NavLink } from "@/components/NavLink";
 import { Button } from "@/components/Button";
 import { getWhatsAppUrl, siteConfig } from "@/lib/siteConfig";
+
+const navLinkClassName =
+  "rounded-lg px-3 py-2 text-sm font-medium text-ink-800 transition-colors duration-200 ease-out hover:bg-ink-900/5 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-leaf-600 motion-reduce:transition-none";
 
 export function Header() {
   return (
@@ -9,20 +11,28 @@ export function Header() {
       <Container className="flex h-16 items-center justify-between gap-3">
         <div className="flex items-center gap-4">
           <a
-            href="/"
+            href="#inicio"
             className="rounded-lg px-2 py-1 text-sm font-extrabold tracking-tight text-ink-900 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-leaf-600"
             aria-label={`${siteConfig.name} - Inicio`}
           >
             I love bio
           </a>
           <nav className="hidden items-center gap-1 md:flex" aria-label="Navegación">
-            <NavLink href="/" exact>
+            <a className={navLinkClassName} href="#inicio">
               Inicio
-            </NavLink>
-            <NavLink href="/productos">Productos</NavLink>
-            <NavLink href="/servicios">Servicios</NavLink>
-            <NavLink href="/sobre">Sobre</NavLink>
-            <NavLink href="/contacto">Contacto</NavLink>
+            </a>
+            <a className={navLinkClassName} href="#productos">
+              Productos
+            </a>
+            <a className={navLinkClassName} href="#servicios">
+              Servicios
+            </a>
+            <a className={navLinkClassName} href="#sobre">
+              Sobre
+            </a>
+            <a className={navLinkClassName} href="#contacto">
+              Contacto
+            </a>
           </nav>
         </div>
 

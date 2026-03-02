@@ -4,7 +4,7 @@ import { siteConfig } from "@/lib/siteConfig";
 export default function sitemap(): MetadataRoute.Sitemap {
   const base = siteConfig.siteUrl;
   const now = new Date();
-  const routes = ["/", "/productos", "/servicios", "/sobre", "/contacto"];
+  const routes = ["/"];
 
   return routes.map((path) => ({
     url: new URL(path, base).toString(),
@@ -13,4 +13,3 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: path === "/" ? 1 : 0.7
   }));
 }
-

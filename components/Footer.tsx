@@ -1,4 +1,3 @@
-import Link from "next/link";
 import { Container } from "@/components/Container";
 import { OpeningHours } from "@/components/OpeningHours";
 import { getFullAddress, getWhatsAppUrl, siteConfig } from "@/lib/siteConfig";
@@ -30,18 +29,18 @@ export function Footer() {
         <div className="space-y-3">
           <div className="text-sm font-semibold text-ink-900">Enlaces</div>
           <div className="grid gap-2 text-sm">
-            <Link className="underline" href="/productos">
+            <a className="underline" href="#productos">
               Productos
-            </Link>
-            <Link className="underline" href="/servicios">
+            </a>
+            <a className="underline" href="#servicios">
               Servicios
-            </Link>
-            <Link className="underline" href="/sobre">
+            </a>
+            <a className="underline" href="#sobre">
               Sobre
-            </Link>
-            <Link className="underline" href="/contacto">
+            </a>
+            <a className="underline" href="#contacto">
               Contacto
-            </Link>
+            </a>
             <a
               className="underline"
               href={getWhatsAppUrl()}

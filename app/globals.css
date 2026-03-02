@@ -11,6 +11,11 @@ body {
   height: 100%;
 }
 
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 5rem;
+}
+
 body {
   @apply bg-white text-ink-900 antialiased;
 }
@@ -20,3 +25,30 @@ body {
   outline-offset: 2px;
 }
 
+.page-transition {
+  animation: page-enter 260ms cubic-bezier(0.2, 0.8, 0.2, 1);
+  will-change: transform, opacity;
+}
+
+@keyframes page-enter {
+  from {
+    opacity: 0;
+    transform: translate3d(0, 10px, 0);
+  }
+  to {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+    scroll-padding-top: 0;
+  }
+
+  .page-transition {
+    animation: none;
+    will-change: auto;
+  }
+}
